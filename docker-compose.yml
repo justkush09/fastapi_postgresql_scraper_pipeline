@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres_password
+      POSTGRES_PASSWORD: Password@09
       POSTGRES_DB: scraper_db
     ports:
       - "5432:5432"
