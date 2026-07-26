@@ -29,7 +29,7 @@ services:
       - POSTGRES_SERVER=db
       - POSTGRES_PORT=5432
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres_password
+      - POSTGRES_PASSWORD=Password@09
       - POSTGRES_DB=scraper_db
       - ENVIRONMENT=production
       - LOG_LEVEL=INFO
